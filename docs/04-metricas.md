@@ -29,22 +29,36 @@ Crie testes simples para validar seu agente:
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
 - **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
 - **Pergunta:** "Qual investimento você recomenda para mim?"
 - **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto XYZ?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Resultado:** [X] Correto  [ ] Incorreto
+
+---
+
+
+
+## Formulario de Feedback
+
+| Metrica | Pergunta | Nota(1-5) |
+|---------|----------|-----------|
+| Assertividade | " A resposta respondeu sua pergunta?" | 5 |
+| Segurança | "As informações pareceram confiaveis?" | 5 |
+| Coêrencia | "A linguagem foi clara e fácil de entender?" | 5 |
+
+**Comentario aberto:** O que poderia melhorar?
 
 ---
 
@@ -53,10 +67,10 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- Os dados listados foram muito bens, precisos e não viajou.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- A velocidade do LLM local deixa a desejar, evoluir para um local cloud, seria mais adequado e rapido, pois não deixaria de perder tanto tempo em duvidas.
 
 ---
 
